@@ -66,7 +66,7 @@ namespace CardsFullStack
                 spa.Options.SourcePath = "ClientApp";
 
                 if (env.IsDevelopment())
-                {
+                { //This was added
                     spa.UseProxyToSpaDevelopmentServer("http://127.0.0.1:4200");
                 }
             });

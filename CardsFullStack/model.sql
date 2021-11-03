@@ -4,7 +4,6 @@ use CardGame;
 
 create table Deck (
     deck_id varchar(20),
-    is_current boolean,
     created_at DateTime,
     username varchar(20),
     PRIMARY KEY (deck_id)
