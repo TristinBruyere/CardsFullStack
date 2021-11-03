@@ -113,8 +113,6 @@ namespace CardsFullStack.Models
             }
         }
 
-        // change
-
         // Save a single card
         public static Card saveCard(string deck_id, string image, string cardcode, string username)
         {
